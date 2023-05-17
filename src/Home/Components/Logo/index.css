@@ -1,0 +1,12 @@
+.block__logo{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    /* background-color: red; */
+    width: 200px;
+}
+
+.logo{
+    cursor: pointer;
+    transition: 0.3s ease;
+}

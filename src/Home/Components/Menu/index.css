@@ -1,0 +1,38 @@
+.list{
+    padding: 20px 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.item{
+    cursor: pointer;
+    font-size: 35px;
+    transition: 0.3s ease;
+    text-align: center;
+    position: relative;
+    width: 200px;
+}
+
+.item:hover{
+    color: rgb(0, 175, 255);
+}
+
+.item::before{
+    content: "";
+    transition: 0.3s ease;
+    position: absolute;
+    height: 1px;
+    width: 0px;
+    border-radius: 1px;
+    bottom: -4px;
+    left: 0;
+    z-index: -1;
+}
+.item:hover::before{
+    width: 180px;
+}
+.item_4:hover:before{
+    width: 0;
+}

@@ -1,0 +1,21 @@
+.block {
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    font-size: 24px;
+    /* width: 400px; */
+    /* background-color: red; */
+    transition: 0.3s ease;
+    cursor: default;
+    text-align: center;
+    margin-top: -10px;
+    letter-spacing: 10px;
+}
+
+p:hover {
+    /* color: rgb(0, 175, 255); */
+}
